@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: url("jj.jpg");
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-areas: "cover content";
+    box-shadow: 2px 0px 33px 0px rgba(0,0,0,0.75);
+}
+
+.cover{
+    grid-area: cover;
+    height: 100%;
+    background-image: url("hgs.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    grid-area: content;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.nav{
+    margin: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: gray;
+}
+.content-body{
+    display: flex;
+}
+.black-label{
+    margin: 10px;
+    width: 50%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.black-label p{
+    font-size: 15px;
+    color: black;
+    width: 100%;
+}
+.title{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    position: static;    
+    padding: 10px;
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.previous{
+    color: black;
+}
+.next{
+    color: black;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
