@@ -11,6 +11,89 @@
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
 	<link rel="icon" href="https://www.oreca.com/wp-content/uploads/2017/04/acay-logo.png" type="image/icon type">
 	<title>ACAY Mission Philippines Inc.,</title>
+	<style>
+		*
+{
+	margin: 0;
+	padding: 0;
+
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background: url(jj.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 100px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: black;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: rgb(0, 0, 0);
+
+}
+
+.content h1{
+	font-size: 100px;
+	margin-top: 60px;
+	font-family: 'WindSong', cursive;
+}
+
+.content p{
+	font-size: 25px;
+	margin: 30px auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+
+	</style>
 
 </head>
 <body>
